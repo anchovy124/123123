@@ -20,5 +20,5 @@ async def 아브데자뷰(ctx):
     await ctx.send('https://youtu.be/6bg4xYvbF2o https://youtu.be/Ql6jzAQWmak https://youtu.be/G5jKLI7gCoU https://youtu.be/mwP40-E3ELE')
 
 
-access_token = os.environ["BOT_TOKEN"]
+access_token = os.environ["TOKEN"]
 client.run('access_token')
