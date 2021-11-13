@@ -1,4 +1,5 @@
 import discord
+import os
 from discord.ext import commands
 
 client = commands.Bot(command_prefix='!')
@@ -20,5 +21,5 @@ async def 아브데자뷰(ctx):
     await ctx.send('https://youtu.be/6bg4xYvbF2o https://youtu.be/Ql6jzAQWmak https://youtu.be/G5jKLI7gCoU https://youtu.be/mwP40-E3ELE')
 
 
-
-client.run('OTA5MDA0Mjk3ODg5NTIxNjc0.YY9-OQ.4721GGGHgpUaniYdlK3h4-HTwDY')
+acce_token = os.environ["BOT_TOKEN
+client.run('access_token')
